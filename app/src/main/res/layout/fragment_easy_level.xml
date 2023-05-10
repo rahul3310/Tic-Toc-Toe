@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:layout_margin="12dp"
     tools:context=".EasyLevelFragment">
+    <!--commants in xml -->git 
     <TextView
         android:id="@+id/mainText"
         android:layout_width="wrap_content"
