@@ -4,21 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
-public class HomeActivity extends AppCompatActivity {
+public class LayoutHolderActivity extends AppCompatActivity {
      LinearLayout homeLayout ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.layout_holder_activity);
 
         homeLayout = findViewById(R.id.homeLayout);
         HomeFragment fragment = new HomeFragment();
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.homeLayout,fragment);
+        transaction.add(R.id.homeLayout,fragment);
         transaction.commit();
 
     }

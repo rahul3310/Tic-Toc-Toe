@@ -27,7 +27,7 @@ public class SplashActivity extends AppCompatActivity {
         Animation move2 = AnimationUtils.loadAnimation(this,R.anim.scale);
         txtToe.setAnimation(move2);
 
-       Intent home = new Intent(SplashActivity.this,HomeActivity.class);
+       Intent home = new Intent(SplashActivity.this, LayoutHolderActivity.class);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

@@ -18,34 +18,37 @@
     android:gravity="center">
   <TextView
       android:id="@+id/txtTic"
-      android:layout_width="80dp"
+      android:layout_width="100dp"
       android:layout_height="wrap_content"
       android:text="Tic"
       android:textSize="40dp"
+      android:padding="8dp"
       android:textAlignment="center"
-      android:background="@drawable/textview_bc"
+      android:background="@drawable/splash_txt_style"
       android:textColor="@color/white" />
   <TextView
       android:id="@+id/txtToc"
-      android:layout_width="80dp"
+      android:layout_width="100dp"
       android:layout_height="wrap_content"
       android:text="Toc"
       android:textSize="40dp"
       android:textColor="@color/white"
       android:textAlignment="center"
-      android:layout_marginLeft="30dp"
-      android:layout_marginRight="30dp"
-      android:background="@drawable/textview_bc"/>
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:padding="8dp"
+      android:background="@drawable/splash_txt_style"/>
 
   <TextView
       android:id="@+id/txtToe"
-      android:layout_width="80dp"
+      android:layout_width="100dp"
       android:layout_height="wrap_content"
       android:text="Toc"
       android:textSize="40dp"
+      android:padding="8dp"
       android:textColor="@color/white"
       android:textAlignment="center"
-      android:background="@drawable/textview_bc"/>
+      android:background="@drawable/splash_txt_style"/>
 
 </LinearLayout>
 
